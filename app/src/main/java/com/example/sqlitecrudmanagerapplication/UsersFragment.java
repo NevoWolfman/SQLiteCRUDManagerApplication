@@ -24,6 +24,7 @@ public class UsersFragment extends Fragment {
         View view =  inflater.inflate(R.layout.fragment_users, container, false);
 
         usersTable = view.findViewById(R.id.usersTable);
+        updated();
 
         return view;
     }

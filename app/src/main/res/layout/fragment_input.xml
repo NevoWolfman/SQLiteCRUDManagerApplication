@@ -28,6 +28,34 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp"
         android:text="Add"/>
+
+    <Button
+        android:id="@+id/updateBTN"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:text="Update"/>
+
+    <Button
+        android:id="@+id/deleteBTN"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="120dp"
+        android:text="Delete"/>
+
+    <EditText
+        android:id="@+id/idET"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="ID"/>
 
 </LinearLayout>
